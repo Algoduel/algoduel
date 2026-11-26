@@ -1,0 +1,16 @@
+id: sort-numbers
+title: Сортировка чисел
+checker: exact            # сравнение по токенам
+
+ladder:
+  cpp:    { from: 10, to: 22 }
+  python: { from: 8,  to: 18 }
+
+# Режимы генератора на каждой ступени: случайные данные и худшие случаи
+tests_per_rung: [random, sorted, reversed, equal]
+
+references:
+  cpp: solutions/ref.cpp
+  python: solutions/ref.py
+
+generator: gen            # go run ./problems/sort-numbers/gen -n N -seed S -mode M

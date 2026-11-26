@@ -1,0 +1,12 @@
+[submodule "api"]
+	path = api
+	url = ../algoduel-api.git
+	branch = main
+[submodule "judge"]
+	path = judge
+	url = ../algoduel-judge.git
+	branch = main
+[submodule "backend"]
+	path = backend
+	url = ../algoduel-backend.git
+	branch = main
